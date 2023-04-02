@@ -1,0 +1,517 @@
+/* This file is used to add style onto your website */
+
+/* Website Sections */
+body {
+  background-color: #E9E8E8;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 250px;
+  border: 5px solid;
+  border-color: white;
+  background-color: honeydew;
+  justify-content: center;
+  justify-content: space-evenly;
+  column-gap: 10px;
+}
+
+.left {
+  flex-shrink: 1;
+  margin-top: -50px;
+  background-color:  #ff7070;
+  height: 375px;
+  width: 600px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: whitesmoke;
+  border-width: 5px;
+  -webkit-transition: -webkit-filter 1000ms;
+  transition:filter 1000ms ease-in-out;
+
+}
+
+.left:hover {
+  -webkit-filter: grayscale(50%); 
+  filter: grayscale(50%);
+  
+}
+
+.right {
+  margin-top: -100px;
+  flex-shrink: 1;
+  background-color: #6A7EFC;
+  width: 500px;
+  height: 500px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: whitesmoke;
+  border-width: 5px;
+  -webkit-transition: -webkit-filter 1000ms;
+  transition:filter 1000ms ease-in-out;
+}
+
+
+.right:hover {
+  -webkit-filter: grayscale(50%); 
+  filter: grayscale(50%);
+}
+
+/* Bio Portion */
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 250px;
+  border: 5px solid;
+  border-color: black;
+  border-radius: 25px;
+  background-color:  #ff7070;
+  justify-content: center;
+  justify-content: space-evenly;
+  column-gap: 10px;
+  -webkit-transition: -webkit-filter 1000ms;
+  transition:filter 1000ms ease-in-out;
+}
+
+.bio:hover {
+  -webkit-filter: grayscale(50%); 
+  filter: grayscale(50%);
+}
+/* Interview Video */
+
+.video {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 300px;
+  
+  justify-content: center;
+  justify-content: space-evenly;
+  column-gap: 10px;
+}
+
+
+/* Skills */
+
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+  width: auto;
+  margin-right: 30px;
+  margin-top: 150px;
+  align-items: center;
+  
+}
+
+.skill1 {
+  border-radius: 25px;
+  align-self: start;
+  width: 400px;
+  height: 400px;
+  background-color: #ff7070;
+  -webkit-transition: -webkit-filter 1000ms;
+  transition:filter 1000ms ease-in-out;
+
+  
+}
+.skill1:hover {
+  -webkit-filter: grayscale(80%); 
+  filter: grayscale(80%);
+}
+
+.skill2 {
+  border-radius: 25px;
+  align-self: end;
+  width: 400px;
+  height: 400px;
+  background-color: honeydew;
+  -webkit-transition: -webkit-filter 1000ms;
+  transition:filter 1000ms ease-in-out;
+
+}
+.skill2:hover {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+
+.skill3 {
+  border-radius: 25px;
+  align-self: start;
+  width: 400px;
+  height: 400px;
+  background-color: #6A7EFC;
+  -webkit-transition: -webkit-filter 1000ms;
+  transition:filter 1000ms ease-in-out;
+
+
+}
+.skill3:hover {
+  -webkit-filter: grayscale(80%); 
+  filter: grayscale(80%);
+}
+
+.skill4 {
+  border-radius: 25px;
+  align-self: end;
+  width: 400px;
+  height: 400px;
+  background-color: honeydew;
+  -webkit-transition: -webkit-filter 1000ms;
+  transition:filter 1000ms ease-in-out;
+
+}
+.skill4:hover {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+
+.skill5 {
+  border-radius: 25px;
+  align-self: start;
+  width: 400px;
+  height: 400px;
+  background-color: #ff7070;
+  -webkit-transition: -webkit-filter 1000ms;
+  transition:filter 1000ms ease-in-out;
+
+}
+.skill5:hover {
+  -webkit-filter: grayscale(80%); 
+  filter: grayscale(80%);
+}
+
+/*////// Projects ///////*/
+.projects {
+  margin-top: 50px;
+  width: auto;
+  height: 1100px;
+  border-color: black;
+  border: 10px solid;
+  border-radius: 15px;
+  background-color: #6A7EFC;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  margin-right: 40px;
+  text-align: center;
+  -webkit-transition: -webkit-filter 1500ms;
+  transition:filter 1500ms ease-in-out;
+}
+
+
+
+.projects:hover {
+  -webkit-filter: grayscale(50%); 
+  filter: grayscale(50%);
+}
+
+.project23 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  color: black;
+  row-gap: 80px;
+  column-gap: 80px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.project34 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  color: black;
+  row-gap: 80px;
+  column-gap: 60px;
+}
+.project-title {
+  text-align: center;
+  margin-top: -10px;
+  color: honeydew;
+}
+.mini-proj-title {
+  color: black;
+}
+/* Resume */
+.resume {
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  width: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 120px;
+  border: 5px solid;
+  border-color: whitesmoke;
+  border-radius: 25px;
+  justify-content: center;
+  justify-content: space-evenly;
+  column-gap: 10px;
+  background-color: honeydew;
+}
+.center-resume {
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+/* Contact Me */
+
+.end {
+  background-color: black;
+  margin-top: 200px;
+  height: 5px;
+  margin: 90px 0% 0% 0%;
+}
+
+.contact-me {
+  margin-top: -20px;
+  height: 400px;
+  background-color: #6A7EFC;
+  -webkit-transition: -webkit-filter 1000ms;
+  transition:filter 1000ms ease-in-out;
+  
+}
+.contact-me:hover {
+  -webkit-filter: grayscale(80%); 
+  filter: grayscale(80%);
+}
+
+.button-link {
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.contact-me-text {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: honeydew;
+}
+
+/* Images */
+
+#pfp {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 450px;
+  height: 450px;
+  border: 5px solid;
+  border-radius: 15px;
+  border-color: honeydew;
+
+}
+
+.skill-img {
+  margin-top: 20px;
+  width: 280px;
+  height: 280px;
+  
+}
+
+.contact-icons {
+  width: 30px;
+  height: 30px;
+}
+/* Navbar */
+
+.topnav {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  width: auto;
+  background-color: black;
+  min-height: 45px;
+  border-radius: 15px;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 15px;
+}
+
+.topnav a:hover {
+  background-color: honeydew;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #6A7EFC;
+  color: white;
+}
+
+/* Acessibility */
+
+.extra-info {
+  display: none;
+   font-family: 'Dancing Script', cursive;
+  font-family: 'Fredoka One', cursive;
+}
+.info:hover .extra-info {
+  display: block;
+}
+.info {
+  font-size: 20px;
+  width: 20px;
+  border-radius: 15px;
+}
+.info:hover {
+  background-color:  white;
+  width: 315px;
+  height: 220px;
+}
+
+.info {
+  margin-top: -100px;
+}
+
+#video-part {
+  margin-right: 300px;
+  width: 300px;
+}
+
+#skill-part {
+  margin-top: -600px;
+  margin-left: 10px;
+}
+
+.i {
+  width: 30px;
+  height: 30px;
+}
+
+
+/* Text and Headers */
+
+.titles, .contact-me-text {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredoka One', cursive;
+  
+  font-size: 70px;
+}
+
+.nav,.topnav {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-size: 8px;
+}
+
+.skill1,.skill2,.skill3,.skill4,.skill5 {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+}
+
+.skill-text {
+  margin-left: 10px;
+}
+
+.contact-me-links {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  column-gap: 60px;
+  row-gap: 50px;
+}
+
+
+#interview {
+  margin-top: -80px;
+  white-space: nowrap;
+  margin-right: 300px;
+  color: black;
+}
+
+#bio_text {
+  display: flex;
+  flex-direction: column;
+  margin-top: -110px;
+  color: black;
+}
+.small-bio-text {
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-size: 25px;
+  line-height: 1.5;
+}
+.explanation {
+  font-size: 10px;
+  margin: 0 5 5 5;
+}
+
+.left-font {
+  padding-top: 15px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#no-wrap {
+  white-space: nowrap;
+}
+.smaller-left-font {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+.project-title { 
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-size: 80px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: black;
+}
+
+.project23, .project34 {
+   font-family: 'Dancing Script', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-size: 25px;
+  color: honeydew;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* Video */
+
+.embd-vid {
+margin-left: 28%;
+  margin-top: 15px; 
+}
